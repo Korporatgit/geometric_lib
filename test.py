@@ -1,4 +1,5 @@
 import unittest
+import square
 
 class SquareTestCase(unittest.TestCase):
     def test_zelo_mul1(self):
