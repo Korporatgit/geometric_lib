@@ -13,13 +13,12 @@ jobs:
     
     runs-on: [ubuntu-latest, windows-latest]
 
-    
     steps:
       
       - uses: actions/checkout@v3
 
       - name: Do unit test
-        run: python3.exe -m unittest square.py
+        run: python3.exe -m unittest test.py
   
    
 
